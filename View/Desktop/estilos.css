@@ -1,0 +1,41 @@
+/*rojo anterior: #DC1B1B
+  azul anterior: #251BDC
+#D70000
+
+*/
+@define-color rojo #A10000;
+@define-color azul #1D00D7;
+@define-color blanco #FFFFFF;
+
+* {
+  font-family: Roboto;
+  
+}
+
+#tempMax{
+  /*color: @rojo;*/
+  font-weight: bold;
+}
+
+#tempMin{
+	/*color: @azul;*/
+	font-weight: bold;
+}
+
+#titulo{
+	font-weight: bold;
+	font-size: larger
+}
+
+#temperatura{
+	font-size: 490%;
+}
+
+#listbox{
+	background-color: alpha (#A1A1A1, 0.2);
+}
+
+#clima{
+	background-color: #242222;
+	color: @blanco;
+}
